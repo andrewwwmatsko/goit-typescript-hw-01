@@ -1,4 +1,4 @@
-type details = {
+type Details = {
   createAt: Date;
   updateAt: Date;
 };
@@ -8,7 +8,7 @@ interface IInfo {
   likes: number;
   accounts: string[];
   status: "open" | "close";
-  details?: details;
+  details?: Details;
 }
 
 const page1: IInfo = {

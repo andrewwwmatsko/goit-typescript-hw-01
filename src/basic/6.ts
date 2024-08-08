@@ -1,4 +1,4 @@
-type address = {
+type Address = {
   city: string;
   country: string;
 };
@@ -7,7 +7,7 @@ interface IUser {
   name: string;
   age: number;
   email: string;
-  address?: address;
+  address?: Address;
 }
 
 const mango: IUser = {
